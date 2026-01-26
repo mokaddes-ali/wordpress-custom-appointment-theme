@@ -18,3 +18,9 @@ require_once get_template_directory() . '/template-part/sections/appointment-sec
 require_once get_template_directory() . '/template-part/sections/doctors-section.php';
 require_once get_template_directory() . '/template-part/sections/news-section.php';
 require_once get_template_directory() . '/template-part/sections/contact-section.php';
+
+require_once get_template_directory() . '/template-part/content/sub-header-breadcrumb.php';
+
+require_once get_template_directory() . '/inc/cpt/services.php';
+require_once get_template_directory() . '/inc/cpt/doctors.php';
+require_once get_template_directory() . '/inc/cpt/testimonials.php';
